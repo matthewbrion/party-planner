@@ -1,0 +1,33 @@
+#app {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+body {
+    background-color: #1c1c1e;
+    color: #e8e0d0;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.party-list {
+    border: 3px solid #6b7fa3;
+    box-shadow: 4px 4px 0px #8b3a2a;
+    padding: 1em;
+}
+
+.party-list li:hover {
+    cursor: pointer;
+    background: #6b7fa3;
+}
+
+.party-detail {
+    border: 3px solid #6b7fa3;
+    box-shadow: 4px 4px 0px #8b3a2a;
+    padding: 1em;
+}
+
+.selected {
+    background-color: #8b3a2a;
+}
